@@ -151,6 +151,20 @@
 .social li a:hover {
     transform: scale(0.5) translateY(-15px);
 }
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer li {
+    list-style: none;
+}
+
 .menu {
     position: absolute;
     top: 0;
